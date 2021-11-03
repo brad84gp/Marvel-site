@@ -1,0 +1,16 @@
+.loadingSymbol{
+    position: relative;
+    margin: 10em auto;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-color: grey;
+    border-style: groove;
+    border-width: 10px;
+    border-radius: 50%;
+    animation: spinningLoad 5s infinite normal;
+}
+
+@keyframes spinningLoad {
+    50%{transform: rotate(180deg)}
+}

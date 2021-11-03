@@ -1,0 +1,24 @@
+
+.comicCardPopUp{
+    width: 500px;
+    height: max-content;
+    position: relative;
+    margin: 3em auto;
+
+}
+
+#popUpImg{
+    width: 100%;
+    height: 100%;
+}
+
+.dropdown-content{
+    display: none;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+}
+
+.dropdown-content:hover{
+    display: block;
+}

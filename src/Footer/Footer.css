@@ -1,0 +1,17 @@
+.footerDiv{
+    margin: 8em .75em;
+    position: absolute;
+    width: 100vw;
+    height: 150px;
+    background-color: rgb(31, 30, 30);
+}
+
+.footerInfo{
+    margin-top: 2.5em;
+    color: white;
+    text-align: center;
+}
+
+.footerDiv li{
+    list-style: none;
+}

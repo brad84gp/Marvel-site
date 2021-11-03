@@ -1,0 +1,13 @@
+.imagesRow{
+    background-color: rgb(37, 37, 37);
+    width: 100vw;
+}
+
+#characterImages{
+    width: 33.3%;
+    border: groove 5px red;
+}
+
+/* @media screen and(max-width: ) {
+    
+} */

@@ -1,0 +1,9 @@
+.storyDiv{
+    margin: 2em 1em;
+    box-shadow: 1px 1px 5px 2px darkgray;
+    text-align: center;
+}
+
+.storyDiv:hover{
+    box-shadow: 1px 1px 5px 5px darkgray;
+}

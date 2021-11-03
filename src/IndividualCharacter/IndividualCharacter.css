@@ -1,0 +1,630 @@
+
+/* ************************************************ 
+****************************************************
+***************************************************
+**************************************************/
+@media screen and (min-width: 200px) {
+    #seriesUpArrow{
+        width: 65px;
+        height: 50px;
+        position: absolute;
+        right: 15%;    
+    }
+
+    .stickyDiv{
+        background-color: red;
+        box-shadow: inset white 2px 2px 10px 15px;
+        padding: 1em;
+        position: sticky;
+        top: 3%;
+        width: 200px;
+        margin-left: 2.5em;
+    }
+
+    #comicImage{
+        width: 150px;
+        height: 150px;
+        margin: 2em .75em;
+        border: 5px black solid;
+        border-radius: 50%;
+    }
+
+    #characterInfo{
+        border: 2px white solid;
+        background-color: black;
+        box-shadow: inset red 2px 2px 10px 10px;
+        color: white;
+        width: 90%;
+        position: relative;
+        margin: 2em auto;
+        text-align: center;
+    }
+
+    #urlAnchor{
+        color: white;
+        text-decoration: none;
+        margin-left: -2em;
+    }
+
+    #urlAnchor:hover{
+    color: red;
+    font-size: 20px;
+    margin-left: -1.5em;
+    }
+
+    .seriesCardDeck{
+        overflow-x: hidden;
+        overflow-y: scroll;
+        height: 625px;
+        width: 80%;
+        margin-left: 2em;
+        border: 1px solid darkgray;
+        box-shadow: 1px 1px 5px 5px darkgray, -1px -1px 5px 5px darkgray;
+        padding: 5%;
+        z-index: 1;
+    }
+
+    #seriesUp{
+        width: 100px;
+
+    }
+
+    #comicsTitle, #seriesTitle, #storiesTitle{
+        text-align: center;
+        margin-bottom: 1em;
+    }
+
+    .ComicsCardDeck{
+        overflow-x: hidden;
+        overflow-y: scroll;
+        height: 625px;
+        width: 80%;
+        margin-left: 2em;
+        border: 1px solid darkgray;
+        box-shadow: 1px 1px 5px 5px darkgray, -1px -1px 5px 5px darkgray;
+        padding: 5%;
+        z-index: 1;
+    }
+
+    .ComicStoryCard{
+        overflow-y: scroll;
+        height: 625px;
+        width: 80%;
+        margin-left: 2em;
+        border: 1px solid darkgray;
+        box-shadow: 1px 1px 5px 5px darkgray, -1px -1px 5px 5px darkgray;
+        padding: 5%;
+        z-index: 1;
+    }
+
+
+    .seriesCard{
+        max-width: 250px;
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+        margin: .5em 2em;
+        position: relative;
+        z-index: .5;
+        
+    }
+
+    .ComicCard{
+        max-width: 250px;
+        height: fit-content;
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+        margin: .5em 2em;
+        position: relative;
+        z-index: .5;
+        
+    }
+
+    ::-webkit-scrollbar{
+        width: 0px;
+        background: transparent;
+    }
+
+    #imgDiv{
+        border: 5px black double;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (min-width: 480px) {
+   
+    #seriesUpArrow{
+        width: 65px;
+        height: 50px;
+        position: absolute;
+        right: 15%;    
+    }
+
+    .stickyDiv{
+        background-color: red;
+        box-shadow: inset white 2px 2px 10px 15px;
+        padding: 1em;
+        position: sticky;
+        top: 3%;
+        width: 400px;
+        margin-left: 3em;
+    }
+
+    #comicImage{
+        width: 250px;
+        height: 250px;
+        margin: 2em 3.5em;
+        border: 5px black solid;
+        border-radius: 50%;
+    }
+
+    #characterInfo{
+        border: 2px white solid;
+        background-color: black;
+        box-shadow: inset red 2px 2px 10px 10px;
+        color: white;
+        width: 50%;
+        position: relative;
+        margin: 2em auto;
+        text-align: center;
+    }
+
+    #urlAnchor{
+        color: white;
+        text-decoration: none;
+        margin-left: -2em;
+    }
+
+    #urlAnchor:hover{
+    color: red;
+    font-size: 20px;
+    margin-left: -1.5em;
+    }
+
+    .seriesCardDeck{
+        overflow-x: hidden;
+        overflow-y: scroll;
+        height: 625px;
+        width: 90%;
+        margin-left: 2em;
+        border: 1px solid darkgray;
+        box-shadow: 1px 1px 5px 5px darkgray, -1px -1px 5px 5px darkgray;
+        padding: 5%;
+        z-index: 1;
+    }
+
+    #seriesUp{
+        width: 100px;
+
+    }
+
+    #comicsTitle, #seriesTitle, #storiesTitle{
+        text-align: center;
+        margin-bottom: 1em;
+    }
+
+    .ComicsCardDeck{
+        overflow-x: hidden;
+        overflow-y: scroll;
+        height: 625px;
+        width: 90%;
+        margin-left: 1.5em;
+        border: 1px solid darkgray;
+        box-shadow: 1px 1px 5px 5px darkgray, -1px -1px 5px 5px darkgray;
+        padding: 5%;
+        z-index: 1;
+    }
+
+    .ComicStoryCard{
+        overflow-y: scroll;
+        height: 625px;
+        width: 90%;
+        margin-left: 1.5em;
+        border: 1px solid darkgray;
+        box-shadow: 1px 1px 5px 5px darkgray, -1px -1px 5px 5px darkgray;
+        padding: 5%;
+        z-index: 1;
+    }
+
+
+    .seriesCard{
+        max-width: 250px;
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+        margin: .5em 7em;
+        position: relative;
+        z-index: .5;
+        
+    }
+
+    .ComicCard{
+        max-width: 250px;
+        height: fit-content;
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+        margin: .5em 7em;
+        position: relative;
+        z-index: .5;
+        
+    }
+
+    ::-webkit-scrollbar{
+        width: 0px;
+        background: transparent;
+    }
+
+    #imgDiv{
+        border: 5px black double;
+        border-radius: 50%;
+    }
+}
+
+/* ************************************************ 
+****************************************************
+***************************************************
+**************************************************/
+
+
+@media screen and (min-width: 560px) {
+
+    .stickyDiv{
+        margin-left: 5em;
+    }
+    
+    .seriesCardDeck{
+        margin-left: 2em;
+    }
+
+  
+
+    .ComicsCardDeck{
+        margin-left: 2em;
+    }
+
+    .ComicStoryCard{
+        margin-left: 2em;
+        
+    }
+
+
+    .seriesCard{
+        margin: .5em 8em;
+        width: 200px;
+    }
+
+    .ComicCard{
+        margin: .5em 8em;
+        width: 200px;
+    }
+}
+
+
+/* ************************************************ 
+****************************************************
+***************************************************
+**************************************************/
+
+
+@media screen and (min-width: 620px) {
+
+    .stickyDiv{
+        margin-left: 8em;
+    }
+    
+    .seriesCardDeck{
+        margin-left: 2.5em;
+    }
+
+  
+
+    .ComicsCardDeck{
+        margin-left: 2.5em;
+    }
+
+    .ComicStoryCard{
+        margin-left: 2.5em;
+        
+    }
+
+
+    .seriesCard{
+        margin: .5em 10em;
+        width: 200px;
+    }
+
+    .ComicCard{
+        margin: .5em 10em;
+        width: 200px;
+    }
+}
+
+
+/* ************************************************ 
+****************************************************
+***************************************************
+**************************************************/
+
+
+@media screen and (min-width: 760px) {
+
+    .stickyDiv{
+        margin-left: -8em;
+    }
+
+    .seriesCardDeck{
+        margin-left: 8em;
+    }
+
+  
+
+    .ComicsCardDeck{
+        margin-left: 8em;
+    }
+
+    .ComicStoryCard{
+        margin-left: 8em;
+    }
+
+
+    .seriesCard{
+        margin: .5em 2em;
+        width: 150px;
+    }
+
+    .ComicCard{
+        margin: .5em 2em;
+        width: 150px;
+    }
+
+    
+    #comicsTitle, #seriesTitle, #storiesTitle{
+        text-align: center;
+        margin-bottom: 1em;
+        margin-left: 3.5em;
+    }
+}
+
+
+@media screen and (min-width: 990px) {
+
+    .stickyDiv{
+        margin-left: -4em;
+    }
+
+    .seriesCardDeck{
+        margin-left: 6em;
+        width: 100%;
+    }
+
+  
+
+    .ComicsCardDeck{
+        margin-left: 6em;
+        width: 100%;
+    }
+
+    .ComicStoryCard{
+        margin-left: 6em;
+        width: 100%;
+    }
+
+
+    .seriesCard{
+        margin: .5em 6em;
+        width: 200px;
+    }
+
+    .ComicCard{
+        margin: .5em 7em;
+        width: 200px;
+    }
+
+    
+    #comicsTitle, #seriesTitle, #storiesTitle{
+        text-align: center;
+        margin-bottom: 1em;
+        margin-left: 3em;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+
+    #comicImage{
+        width: 250px;
+        height: 250px;
+        margin: 2em 5em;
+        border: 5px black solid;
+        border-radius: 50%;
+    }
+
+    .stickyDiv{
+        margin-left: 0em;
+        width: 450px;
+    }
+
+    .seriesCardDeck{
+        margin-left: 6em;
+        width: 100%;
+    }
+
+  
+
+    .ComicsCardDeck{
+        margin-left: 8em;
+        width: 100%;
+    }
+
+    .ComicStoryCard{
+        margin-left: 8em;
+        width: 100%;
+    }
+
+
+    .seriesCard{
+        margin: .5em 10.5em;
+        width: 250px;
+    }
+
+    .ComicCard{
+        margin: .5em 9em;
+        width: 250px;
+    }
+
+    
+    #comicsTitle, #seriesTitle, #storiesTitle{
+        text-align: center;
+        margin-bottom: 1em;
+        margin-left: 3em;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+
+    #comicImage{
+        width: 250px;
+        height: 250px;
+        margin: 2em 7em;
+        border: 5px black solid;
+        border-radius: 50%;
+    }
+
+    .stickyDiv{
+        margin-left: 0em;
+        width: 500px;
+    }
+
+    .seriesCardDeck{
+        margin-left: 6em;
+        width: 100%;
+    }
+
+  
+
+    .ComicsCardDeck{
+        margin-left: 6em;
+        width: 100%;
+    }
+
+    .ComicStoryCard{
+        margin-left: 6em;
+        width: 100%;
+    }
+
+
+    .seriesCard{
+        margin: .5em 2.5em;
+        width: 200px;
+    }
+
+    .ComicCard{
+        margin: .5em 2.5em;
+        width: 200px;
+    }
+
+    
+    #comicsTitle, #seriesTitle, #storiesTitle{
+        text-align: center;
+        margin-bottom: 1em;
+        margin-left: 2em;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+
+    #comicImage{
+        width: 250px;
+        height: 250px;
+        margin: 2em 7em;
+        border: 5px black solid;
+        border-radius: 50%;
+    }
+
+
+    .seriesCard{
+        margin: .5em 2em;
+        width: 250px;
+    }
+
+    .ComicCard{
+        margin: .5em 2em;
+        width: 250px;
+    }
+
+    
+    #comicsTitle, #seriesTitle, #storiesTitle{
+        text-align: center;
+        margin-bottom: 1em;
+        margin-left: 2.5em;
+    }
+}
+
+
+@media screen and (min-width: 2000px) {
+
+    .stickyDiv{
+        margin-left: 6em;
+        width: 500px;
+    }
+
+
+    .seriesCard{
+        margin: .5em 3.5em;
+        width: 250px;
+    }
+
+    .ComicCard{
+        margin: .5em 3.5em;
+        width: 250px;
+    }
+
+    
+    #comicsTitle, #seriesTitle, #storiesTitle{
+        text-align: center;
+        margin-bottom: 1em;
+        margin-left: 2.5em;
+    }
+}
+
+
+@media screen and (min-width: 2350px) {
+
+    .stickyDiv{
+        margin-left: 8em;
+        width: 500px;
+    }
+
+
+    .seriesCard{
+        margin: .5em 5em;
+        width: 250px;
+    }
+
+    .ComicCard{
+        margin: .5em 5em;
+        width: 250px;
+    }
+
+    
+    #comicsTitle, #seriesTitle, #storiesTitle{
+        text-align: center;
+        margin-bottom: 1em;
+        margin-left: 2.5em;
+    }
+}
+
+@media screen and (min-width: 2500px) {
+
+    .seriesCard{
+        margin: .5em 7em;
+        width: 250px;
+    }
+
+    .ComicCard{
+        margin: .5em 7em;
+        width: 250px;
+    }
+
+}

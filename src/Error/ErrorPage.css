@@ -1,0 +1,54 @@
+#errorDiv{
+    background-color: blue;
+    height: 500px;
+    position: relative;
+    z-index: 0;
+    border-left: red 5px solid;
+    border-right: red 5px solid;
+}
+
+#errorMsg{
+    padding: 5%;
+    transform: skewY(20deg);
+}
+
+#errorMsg h1{
+    text-align: center;
+}
+
+
+#underError{
+    position: relative;
+    transform: skewY(20deg);
+    background-color: red;
+    height: 280px;
+    margin-top: -9em;
+    z-index: .5;
+    border-left: blue 5px solid;
+    border-right: blue 5px solid;
+}
+
+#whiteError{
+    position: relative;
+    transform: skewY(-20deg);
+    background-color: red;
+    height: 280px;
+    margin-top: -18em;
+    z-index: .2;
+    border-right: blue 5px solid;
+    border-left: blue 5px solid;
+}
+
+#lastDiv{
+    background-color: blue;
+    height: 400px;
+    position: relative;
+    z-index: -1;
+    
+    border-left: red 5px solid;
+    border-right: red 5px solid;
+}
+
+.errorRow{
+    height: max-content;
+}

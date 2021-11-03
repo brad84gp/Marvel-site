@@ -1,0 +1,52 @@
+.characterCards{
+    height: 500px;
+    box-shadow: darkgray 5px 5px;
+}
+
+.characterCards:hover{
+    transform: scaleY(105%);
+    transform: translate(-5%, -5%) ;
+    box-shadow: darkgray 15px 15px;
+}
+
+.characterDiv{
+    width: 500px;
+    height: 250px;
+    margin: 10em auto;
+}
+
+#characterName{
+    color: red;
+    text-align: center;
+    text-shadow: black 3px 3px;
+    font-size: 50px;
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+    .characterCards{
+        height: 250px;
+        box-shadow: darkgray 5px 5px;
+    }
+    
+    .characterCards:hover{
+        transform: scaleY(105%);
+        transform: translate(-5%, -5%) ;
+        box-shadow: darkgray 15px 15px;
+    }
+    
+    .characterDiv{
+        width: 200px;
+        height: 200px;
+        margin: 5em 8em;
+    }
+    
+    #characterName{
+        color: red;
+        text-align: center;
+        text-shadow: black 3px 3px;
+        font-size: 50px;
+    }
+}
