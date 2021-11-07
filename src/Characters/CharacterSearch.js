@@ -1,6 +1,6 @@
 import React, { useLayoutEffect, useState, useContext } from 'react'
 
-import { Button, Form, Input, InputGroup, InputGroupAddon } from 'reactstrap'
+import { Button, Form, Input, InputGroup } from 'reactstrap'
 
 import CharacterContext from './CharacterReactContext'
 
@@ -56,9 +56,8 @@ const Search = () => {
                             ))}
                         </datalist>
                     ) : null}
-                    <InputGroupAddon addonType='append'>
-                        <Button color="secondary" type="submit" >Search Characters</Button>
-                    </InputGroupAddon>
+                    <Button color="secondary" type="submit" >Search Characters</Button>
+                    
                 </InputGroup>
             </Form>
         </div>
