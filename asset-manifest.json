@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/brad84gp/Marvel-site/static/css/main.9a3d9bb2.chunk.css",
+    "main.js": "/brad84gp/Marvel-site/static/js/main.e0d64dcc.chunk.js",
+    "main.js.map": "/brad84gp/Marvel-site/static/js/main.e0d64dcc.chunk.js.map",
+    "runtime-main.js": "/brad84gp/Marvel-site/static/js/runtime-main.60acf187.js",
+    "runtime-main.js.map": "/brad84gp/Marvel-site/static/js/runtime-main.60acf187.js.map",
+    "static/css/2.fa43bc9e.chunk.css": "/brad84gp/Marvel-site/static/css/2.fa43bc9e.chunk.css",
+    "static/js/2.f4c1e8bb.chunk.js": "/brad84gp/Marvel-site/static/js/2.f4c1e8bb.chunk.js",
+    "static/js/2.f4c1e8bb.chunk.js.map": "/brad84gp/Marvel-site/static/js/2.f4c1e8bb.chunk.js.map",
+    "index.html": "/brad84gp/Marvel-site/index.html",
+    "precache-manifest.605eb019e0e1cfd3e5f8b2ba44302115.js": "/brad84gp/Marvel-site/precache-manifest.605eb019e0e1cfd3e5f8b2ba44302115.js",
+    "service-worker.js": "/brad84gp/Marvel-site/service-worker.js",
+    "static/css/2.fa43bc9e.chunk.css.map": "/brad84gp/Marvel-site/static/css/2.fa43bc9e.chunk.css.map",
+    "static/css/main.9a3d9bb2.chunk.css.map": "/brad84gp/Marvel-site/static/css/main.9a3d9bb2.chunk.css.map",
+    "static/js/2.f4c1e8bb.chunk.js.LICENSE.txt": "/brad84gp/Marvel-site/static/js/2.f4c1e8bb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.60acf187.js",
+    "static/css/2.fa43bc9e.chunk.css",
+    "static/js/2.f4c1e8bb.chunk.js",
+    "static/css/main.9a3d9bb2.chunk.css",
+    "static/js/main.e0d64dcc.chunk.js"
+  ]
+}
